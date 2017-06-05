@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+}
+#title{
+    text-align: center;
+}
+
+#graph {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: lightgray;
+
+}
+svg{
+    transform:translateX(50%);
+}
+
+rect {
+    width: 85.7143px;
+    position: absolute;
+    fill:cornflowerblue;
+    stroke-width:1;
+    stroke:white;
+}
